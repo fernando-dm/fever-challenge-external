@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  error:
+    include-binding-errors: always
+    include-message: always
+
+environment: "local"
+
+logging:
+  level:
+    org.springframework:
+      security: info
+    web: info
